@@ -5,7 +5,7 @@ from django.http import HttpResponse,JsonResponse
 import dateutil.parser
 
 def index(request):
-    l = []
+    l=[]
     r = requests.get('https://api.spacexdata.com/v3/launches')
     json_data = json.loads(r.text)
     for i in range (len(json_data)):
@@ -18,6 +18,4 @@ def index(request):
         'date': (dobj.day,dobj.month,dobj.year)
         }
         l.append(j)
-
-
-    return HttpResponse(l)
+    return render(request,'index.html',{'list': l})

@@ -1,0 +1,23 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="background-color: blue; padding-top:18px; color:#fff">
+<h1 style="margin-left: 45px;">       Required Data is:</h1>
+
+
+<br></div>
+<hr>
+    
+{% for i in list %}
+<ul style="font-size:21px;">
+<li><ul style ="color:#fff">
+    <li>Flight number is : {{ i.flight_number }}</li>
+    <li>Rocket name is : {{ i.rocket_name }}</li>
+    <li>Mission patch link is : {{ i.missionpatch}}</li>
+    <li>date is : {{ i.date }}</li>
+   
+</ul></li>
+</ul>
+{% endfor %}
+{% endblock %}
