@@ -1,5 +1,8 @@
 # Unicode-Backend
 
+# task 1 :
+Takes console input of binary numbers and outputs list of binary numbers from input which are divisible by 5.
+
 
 # task 2:
 
