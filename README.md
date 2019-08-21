@@ -36,4 +36,4 @@ using for loop  **inputted the data into the database** and displayed the data f
 
 # task 4 modified:
 - Made some changes to index.html.(fixed a minor bug)
-- Html page now shows actual images instead of link
+- Html page now shows actual images instead of link (latest update)
