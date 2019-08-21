@@ -10,14 +10,15 @@
 <hr>
     
 {% for i in yr %}
+<center>
 <ul style="font-size:21px;">
-<li><ul style ="color:#fff">
-    <li>Flight number is : {{ i.flight_number }}</li>
-    <li>Rocket name is : {{ i.rocket_name }}</li>
-    <li>Mission patch link is : {{ i.mission_patch_link }}</li>
-    <li>date is : {{ i.date }}</li>
+    <li style ="color:#fff">Flight number is : {{ i.flight_number }}</li>
+    <li style ="color:#fff">Rocket name is : {{ i.rocket_name }}</li>
+    <li style ="color:#fff">Mission patch link is :<br><img style="height:150px;width:150px;"src="{{ i.mission_patch_link }}" alt="No Image,Sorry!"></li>
+    <br>
+    <li style ="color:#fff">date is : {{ i.date }}</li>
    
-</ul></li>
-</ul>
+</ul><br><br>
+</center>
 {% endfor %}
 {% endblock %}
