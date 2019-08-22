@@ -12,7 +12,7 @@ Takes console input of binary numbers and outputs list of binary numbers from in
 - Made required changes in settings.py.
 - Created urls.py in dcollect 
 - Created index function in views.py and linked it to urls.py in dcollect and in main folder.
-- Used repuests module in index function to get data from required api. 
+- Used requests module in index function to get data from required api. 
 - Converted datestring to dateobject.
 - Created a list of dictionaries having only the specified data.(l)
 - Then displayed list data directly on the webpage.
@@ -30,7 +30,7 @@ and thus displayed data on the webpage using html
 - Initialized class Rdata in models.py with required fields.
 - Made migrations.
 - Defined a function (dataget) in models.py that:
-	1. Used repuests module to get data from required api. 
+	1. Used requests module to get data from required api. 
 	2. Converted datestring to dateobject.
 	3. Created and returned a list of dictionaries having only the specified data.(l)
 
