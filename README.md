@@ -1,12 +1,15 @@
 # Apoorva Ambulgekar
 
-# Unicode-Backend
+# Unicode-Backend (DJANGO)
+## These are tasks that had to be completed for college committee.
+## These tasks are based on DJANGO.
 
-# task 1 :
+# Task 1 :
 Takes console input of binary numbers and outputs list of binary numbers from input which are divisible by 5.
 
 
-# task 2:
+# Task 2:
+## Display data from spacex api onto webpage.
 
 - Created project 'spacex' and app 'dcollect'.
 - Made required changes in settings.py.
@@ -18,7 +21,8 @@ Takes console input of binary numbers and outputs list of binary numbers from in
 - Then displayed list data directly on the webpage.
 
 
-# task 3:
+# Task 3:
+## Render data from task 2 on a html page.
 - Created 'template' folder and created index.html and base.html.
 - Edited settings.py as required.
 - Rendered index.html in views.py and sent list (l) to it
@@ -26,7 +30,8 @@ and thus displayed data on the webpage using html
 
 
 
-# task 4 first run:
+# Task 4 first run:
+## Store data from api in database and then display the data.
 - Initialized class Rdata in models.py with required fields.
 - Made migrations.
 - Defined a function (dataget) in models.py that:
@@ -39,6 +44,8 @@ using for loop  **inputted the data into the database** and displayed the data f
 
 
 
-# task 4 modified:
+# Task 4 modified:
 - Made some changes to index.html.(fixed a minor bug)
 - Html page now shows actual images instead of link (latest update)
+
+### Please check screenshots to get a better idea.
