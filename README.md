@@ -1,7 +1,7 @@
 # Apoorva Ambulgekar
 
 # Unicode-Backend (DJANGO)
-## These are tasks that had to be completed for college committee.
+## These are tasks that had to be completed for the college committee interview.
 ## These tasks are based on DJANGO.
 
 # Task 1 :
